@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Local temporary cache
+.pycache_tmp/
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Streamlit local state
+.streamlit/secrets.toml
