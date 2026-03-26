@@ -4,7 +4,7 @@ from dataclasses import dataclass
 
 try:
     import efinance as ef
-except ImportError:  # pragma: no cover - runtime fallback
+except (ImportError, PermissionError, OSError):  # pragma: no cover - runtime fallback
     ef = None
 
 
